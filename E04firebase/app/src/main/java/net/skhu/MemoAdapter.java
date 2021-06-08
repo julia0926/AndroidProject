@@ -58,9 +58,9 @@ public class MemoAdapter extends RecyclerView.Adapter<MemoAdapter.ViewHolder> {
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             int index = super.getAdapterPosition();
             Memo memo = arrayList.get(index);
+            //if (isChecked==memo.isChecked()) return; //사람이 체크햇
             memo.setChecked(isChecked);
-            if (isChecked) ++checkCount;
-            else --checkCount;
+            if (isChecked) ++checkCount; else --checkCount;
             if (checkCountChangeListener != null)
                 checkCountChangeListener.onCheckCountChanged(checkCount);
         }
@@ -120,7 +120,7 @@ public class MemoAdapter extends RecyclerView.Adapter<MemoAdapter.ViewHolder> {
         viewHolder.setData(index);
     }
 
-    public void add(Memo memo) {
+    public void add(Memo memo) { //새 메모 객체가 추가되면 메모 목록 전체를 firebaseDB에 저장한다.
         arrayList.add(memo);
         item02.setValue(arrayList);
     }
