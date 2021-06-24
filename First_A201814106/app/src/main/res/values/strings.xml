@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">A201814106</string>
+    <string name="Exam1">Exam1</string>
+    <string name="Exam2">Exam2</string>
+    <string name="one">하나</string>
+    <string name="two">둘</string>
+    <string name="three">셋</string>
+    <string name="power">전원</string>
+    <string name="powerOn">Power On</string>
+    <string name="powerOff">Power Off</string>
+</resources>
