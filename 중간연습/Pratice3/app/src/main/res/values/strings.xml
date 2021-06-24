@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pratice</string>
+    <string name="check">확인</string>
+    <string name="action_signUp">회원가입</string>
+    <string name="action_memo">메모장</string>
+    <string name="id">로그인 아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="password2">비밀번호 확인</string>
+    <string name="email">이메일</string>
+    <string name="signUp">회원가입</string>
+    <string name="save">저장</string>
+    <string name="increase">증가</string>
+    <string name="decrease">감소</string>
+    <string name="value">0</string>
+    <string name="action_button">버튼</string>
+    <string name="refresh">새로고침</string>
+    <string name="action_checkboxes">체크박스</string>
+    <string name="autoLogin">자동로그인</string>
+    <string name="red">빨간색</string>
+    <string name="blue">파란색</string>
+    <string name="purple">보라색</string>
+    <string name="cat">고양이</string>
+    <string name="dog">강아지</string>
+    <string name="owl">부엉이</string>
+    <string name="shift">문자열 이동</string>
+    <string name="input_string">문자열을 입력하세요.</string>
+</resources>

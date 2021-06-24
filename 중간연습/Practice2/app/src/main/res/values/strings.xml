@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practice3</string>
+    <string name="One">하나</string>
+    <string name="Two">둘</string>
+    <string name="manager">관리자</string>
+    <string name="user">사용자</string>
+    <string name="consumer">손님</string>
+
+    <string-array name="userType">
+        <item>관리자</item>
+        <item>사용자</item>
+        <item>손님</item>
+    </string-array>
+
+</resources>

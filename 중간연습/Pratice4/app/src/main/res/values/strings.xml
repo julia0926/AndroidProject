@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pratice4</string>
+    <string-array name="phoneTypes">
+        <item>집전화</item>
+        <item>사무실전화</item>
+        <item>휴대폰</item>
+        <item>기타</item>
+    </string-array>
+
+</resources>
